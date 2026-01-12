@@ -15,6 +15,7 @@ cors = aiohttp_cors.setup(app)
 allowed_domains = [
     "https://fhirpath-lab.com",
     "https://dev.fhirpath-lab.com",
+    "https://hackweek.fhirpath-lab.com",
     "https://fhirpath-lab.azurewebsites.net",
     "https://fhirpath-lab-dev.azurewebsites.net",
     "http://localhost:3000",
